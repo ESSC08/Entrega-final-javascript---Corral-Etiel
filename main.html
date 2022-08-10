@@ -30,7 +30,39 @@
         </ul>
     </header>
 
-    <div></div>
-    
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+        Producto añadido al carrito!
+    </div>
+    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+        Producto removido!
+    </div>
+
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h2>Bienvenidos a la tienda Pokemon!!!</h2>
+            <img src="./img/pngwing.com.png" alt="pokemon iniciales">
+        </div>
+        <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h2 class="h4 m-4 text-primary">
+                Productos
+            </h2>
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Card title 1</h5>
+                        <img src="./img/pocion.png" class="card-img-top" alt="pocion">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">Las pociones son objetos curativos que restauran los puntos de salud (PS) de los Pokémon. Se tratan de diferentes aerosoles que, accionados a través de una palanca, pulverizan un líquido que se aplica sobre la herida.</p>
+                            <h5 class="text-primary">Precio: <span class="precio">$100</span></h5>
+                            <div class="d-grid gap-2">
+                                <button  class="btn btn-primary button">Añadir a Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
